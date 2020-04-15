@@ -1,0 +1,139 @@
+body{
+	background-color: rgb(0,0,0);
+	font-family: "Arial";
+	margin: 0;
+}
+
+#conteudo{
+	background-color: rgb(213,236,196);
+	margin: 0% 5%;
+	padding: 30px;
+}
+
+#cabecalho, #noticiasprincipais{
+	text-align: center;
+	font-size: 150%;
+	text-shadow: rgb(177,233,188) 2px 2px 5px;
+	color: rgb(33,118,50);
+}
+
+#navbar{
+	display: flex;
+	justify-content: space-around;
+	background-color: rgb(33,118,50);
+	padding: 15px;
+	color: rgb(177,233,188);
+}
+
+#navbar a{
+	text-decoration: none;
+	padding: 5px;
+	color: rgb(177,233,188);
+	font-size: 130%;
+}
+
+#navbar a:hover{
+	background-color: rgb(177,233,188);
+	color: rgb(33,118,50);
+}
+
+#imagemvirus{
+	width: 100%;
+	margin: 20px 0;
+}
+
+.gruponoticias{
+	display: flex;
+	justify-content: space-between;
+}
+
+.gruponoticias img, video, audio, iframe{
+	width: 80%;
+}
+
+.noticia{
+	padding: 20px;
+	margin: 30px;
+	text-align: center;
+	min-height: 300px;
+	border: rgb(33,118,50) 1px solid;
+	box-shadow: rgb(33,118,50) 2px 2px 10px;
+}
+
+.noticia p{
+	text-align: justify;
+}
+
+.noticia a, #sobre a, ul a{
+	color: rgb(33,118,50);
+	text-decoration: none;
+	font-weight: bold;
+}
+
+h3{
+	color: rgb(33,118,50);
+}
+
+#rodape{
+	background-color: rgb(33,118,50);
+	padding: 15px;
+	color: rgb(177,233,188);
+	text-align: center;
+}
+
+#sobre h2{
+	color: rgb(33,118,50);
+	text-align: center;
+}
+
+#sobre{
+	padding: 20px;
+}
+
+#conteudosobre{
+	display: flex;
+	justify-content: space-between;	
+	text-align: justify;
+}
+
+#imagemsobre{
+	height: 300px;
+	margin: 30px;
+}
+
+#sobreana{
+	height: 100%;
+	border: rgb(33,118,50) 1px solid;
+	box-shadow: rgb(33,118,50) 2px 2px 10px;
+}
+
+#formulario{
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}
+
+form{
+	width: 60%;
+	margin: auto;
+	padding: 10px;
+}
+
+#botao{
+	width: 35%;
+	height: 30px;
+	color: rgb(33,118,50);
+	font-weight: bold;
+}
+
+#saibamais{
+	text-align: center;
+}
+
+ul{
+	list-style: none;
+}
+
+li{
+	margin: 20px;
+}
